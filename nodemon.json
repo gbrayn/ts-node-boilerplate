@@ -1,5 +1,5 @@
 {
-  "ignore": ["node_modules"],
+  "ignore": ["node_modules", "__tests__"],
   "watch": ["src"],
   "execMap": {
     "ts": "sucrase-node src/server.ts"

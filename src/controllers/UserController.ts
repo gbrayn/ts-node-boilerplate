@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 
-import { User } from '../schemas/User'
+import { User } from '../schemas'
 
 class UserController {
   public async store (req: Request, res: Response): Promise<Response> {
